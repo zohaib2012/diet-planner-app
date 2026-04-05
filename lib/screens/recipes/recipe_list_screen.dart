@@ -113,7 +113,8 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
             child: recipes.isEmpty
                 ? const EmptyStateWidget(
                     icon: Icons.restaurant_menu,
-                    message: 'No recipes found',
+                    title: 'No recipes found',
+                    subtitle: 'Try a different search or filter',
                   )
                 : ListView.builder(
                     itemCount: recipes.length,

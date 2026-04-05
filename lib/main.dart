@@ -151,7 +151,7 @@ class DietPlannerApp extends StatelessWidget {
               // Progress
               AppRoutes.weightLog: (_) => WeightLogScreen(),
               AppRoutes.weightGraph: (_) => WeightGraphScreen(),
-              AppRoutes.bmiCalculator: (_) => BmiCalculatorScreen(),
+              AppRoutes.bmiCalculator: (_) => BMICalculatorScreen(),
               AppRoutes.calorieHistory: (_) => CalorieHistoryScreen(),
 
               // Reminders
