@@ -60,7 +60,7 @@ class AppTheme {
       errorBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(12), borderSide: BorderSide(color: AppColors.error)),
       contentPadding: EdgeInsets.symmetric(horizontal: 16, vertical: 14),
     ),
-    cardTheme: CardThemeData(
+    cardTheme: CardTheme(
       elevation: 2,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       color: AppColors.surfaceLight,
@@ -123,7 +123,7 @@ class AppTheme {
       focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(12), borderSide: BorderSide(color: AppColors.primary, width: 2)),
       contentPadding: EdgeInsets.symmetric(horizontal: 16, vertical: 14),
     ),
-    cardTheme: CardThemeData(
+    cardTheme: CardTheme(
       elevation: 0,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(12),
