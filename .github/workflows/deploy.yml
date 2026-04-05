@@ -21,6 +21,7 @@ jobs:
           channel: 'stable'
 
       - run: flutter pub get
+      - run: flutter create . --org com.dietplanner --platforms web --no-overwrite || true
       - run: flutter build web --release --base-href "/diet-planner-app/"
 
       - uses: actions/upload-pages-artifact@v3
